@@ -11,7 +11,7 @@ const rect = new fabric.Rect({
     fill: "coral"
 });
 
-var textContainer = new fabric.Rect({
+const textContainer = new fabric.Rect({
 	left: rect.left,
 	top: rect.top - 30,
 	fill: 'black',

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Fabricjs Vanilla</title>
-    <meta charset="UTF-8" />
-  </head>
 
-  <body>
-    <canvas
-      id="whiteboard"
-      width="500"
-      height="500"
-      style="border: 1px solid;"
-    />
-    <script type="module" src="./index.js">
-      
-    </script>
-  </body>
+<head>
+  <title>Fabricjs Vanilla</title>
+  <meta charset="UTF-8" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="flex justify-center items-center bg-gray-200 h-[100vh]">
+    <canvas id="whiteboard" width="500" height="500" class="border-2 border-black"></canvas>
+  </div>
+  <script type="module" src="./index.js"> </script>
+
+</body>
+
 </html>
