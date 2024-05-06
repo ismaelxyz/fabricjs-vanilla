@@ -1,0 +1,21 @@
+{
+    "name": "fabricjs-vanilla",
+    "version": "1.2.0",
+    "description": "",
+    "scripts": {
+        "start": "npx parcel serve ./src/index.html",
+        "build": "npx parcel build index.html"
+    },
+    "dependencies": {
+        "fabric": "^v6.0.0-rc1"
+    },
+    "devDependencies": {
+        "@babel/core": "7.24.5",
+        "parcel": "^2.12.0",
+        "typescript": "5.4.5"
+    },
+    "resolutions": {
+        "@babel/preset-env": "7.24.5"
+    },
+    "keywords": []
+}
